@@ -1,0 +1,109 @@
+#Myfavouritehobby {
+    background: linear-gradient(#eeff00 0%, #ffc700 100%);
+    text-align: center;
+    padding: 50px;
+    font-size: 20px;
+    height: 563px;
+}
+
+body {
+    margin: 0px;
+    padding-top: 800px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'New Tegomin', serif;
+}
+
+.profile {
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    display: table-cell;
+}
+.menu {
+    list-style: none;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;
+    
+}
+
+
+
+.links {
+    float: left;
+    color: ghostwhite;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: cursive;
+    background-color:lightgreen;
+    font-size: 20px
+}
+
+.links:hover {
+    background-color: aqua;
+}
+
+#about {
+    position: absolute;
+    height: 800px;
+    color: black;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    background: linear-gradient(#b3e8aa 0%, #fb0303 100%);
+    display: table;
+    text-align: center;
+    z-index: 9;
+}
+
+div {
+    display: block;
+}
+
+#Myfavouritebook {
+    background: linear-gradient(#fbbafa 0%, #b9bbfa 100%);
+    padding: 50px;
+    font-size: 20px;
+    height: 700px;
+}
+
+#Myinspiration {
+    background: linear-gradient(#04fefe 0%, #b3e8aa 100%);
+    text-align: center;
+    padding: 50px;
+    font-size: 20px;
+    height: 508px;
+}
+#Billgates{
+    width: 160px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+a{
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+.inspiration{
+    width: 160px;
+    transition: transform .2s;
+}
+.inspiration:hover{
+    transform:scale(0.9);
+}
+p{
+    font-size: 25px;
+}
+img{
+    border-radius: 250px;
+}
